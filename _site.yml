@@ -1,0 +1,12 @@
+name: "Brock's_Blog"
+title: "Brock Rowley's Blog"
+description: |
+  Brock Rowley's Blog
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

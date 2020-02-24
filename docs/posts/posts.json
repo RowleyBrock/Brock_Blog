@@ -1,0 +1,17 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Brock Rowley's Blog",
+    "description": "Welcome to our new blog, Brock Rowley's Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-02-24",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-02-24T10:32:14-08:00"
+  }
+]
