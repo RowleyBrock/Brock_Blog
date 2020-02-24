@@ -7,8 +7,7 @@ author:
   - name: Brock Rowley
     url: https://example.com/norajones
     affiliation: University of Oregon
-    affiliation_url: 
-    https://www.brtprojects.org/
+    affiliation_url: https://www.brtprojects.org/
 date: 02-24-2020
 output:
   distill::distill_article:
