@@ -1,8 +1,8 @@
 ---
 title: "Welcome to Brock Rowley's Blog"
 description: |
-  Welcome to our new blog, Brock Rowley's Blog. We hope you enjoy 
-  reading what we have to say!
+  Welcome to my new blog, Brock Rowley's Blog. I hope you enjoy 
+  reading what I have to say!
 author:
   - name: Brock Rowley
     url: https://example.com/norajones
