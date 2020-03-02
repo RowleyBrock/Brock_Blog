@@ -1,0 +1,31 @@
+---
+title: "Another Post"
+description: |
+  A short description of the post.
+author:
+  - name: Brock Rowley
+    url: https://example.com/norajones
+date: 02-26-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE, fig.height = 7)
+library(ggplot2)
+```
+
+```{r us_map}
+states <- map_data("state")
+
+usa <- ggplot() +
+  geom_polygon(data = states,
+               aes(x = long,
+                   y = lat,
+                   group = group),
+               fill = NA,
+               color = "#154937") +
+  coord_quickmap()
+```
+

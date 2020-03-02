@@ -1,0 +1,45 @@
+---
+title: "Flex the USA"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(flexdashboard)
+library(ggplot2)
+library(gt)
+library(plotly)
+library(reactable)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+### Data from the USA
+
+```{r}
+head(usa_data)
+usa_data <- map_data("state") %>%
+  gt()
+usa_data %>% 
+  reactable()
+```
+
+
+### Map of the USA
+
+```{r map}
+states <- map_data("state")
+
+usa <- ggplot() +
+  geom_polygon(data = states,
+               aes(x = long,
+                   y = lat,
+                   group = group),
+               fill = NA,
+               color = "#154937") +
+  coord_quickmap()
+ggplotly(usa)
+```

@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/2020-02-26-another-post/",
+    "title": "Another Post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Brock Rowley",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-02-26",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-02-26T10:16:11-08:00"
+  },
+  {
     "path": "posts/2020-02-24-my-first-post/",
     "title": "My first post",
     "description": "A short description of the post.",
